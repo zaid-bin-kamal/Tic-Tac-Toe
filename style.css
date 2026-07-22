@@ -1,0 +1,78 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    color: #454545;
+    margin-top: 2rem;
+}
+
+body{
+    background-color: #D5C7BC;
+    text-align: center  ;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.btn{
+    background-color: #785964;
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: none;
+    font-size:  10vmin;
+    color: white;
+}
+
+.btn:active{
+    transform: scale(0.96);
+}
+
+#reset{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #454545;
+    color: white;
+    border-radius: 1rem;
+}
+
+.won button{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: #454545;
+    color: white;
+    border-radius: 1rem;
+}
+
+.won{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#winMsg{
+    color: #454545;
+    font-size: 10vmin;
+}
+
+.hide{
+    display: none;
+}
